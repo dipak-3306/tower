@@ -1,0 +1,6 @@
+t = int(input())
+while(t!=0):
+    n = int(input())
+    result = int((n+1)*(n+1)/2) - 1
+    print(result)
+    t = t-1
